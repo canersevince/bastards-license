@@ -1,5 +1,6 @@
 import type { BigNumberish } from "@ethersproject/bignumber";
 import { formatUnits } from "@ethersproject/units";
+import {StorageProvider} from "./config/types";
 
 export function shortenHex(hex: string, length = 4) {
   return `${hex.substring(0, length + 2)}…${hex.substring(
@@ -36,3 +37,11 @@ export const parseBalance = (
   decimals = 18,
   decimalsToDisplay = 3
 ) => Number(formatUnits(balance, decimals)).toFixed(decimalsToDisplay);
+
+export const providers:StorageProvider[] = [
+  {
+    name: "IPFS",
+    hashLength: 46,
+    baseURI: "https://ipfs.infura.io/ipfs/"
+  },
+]
