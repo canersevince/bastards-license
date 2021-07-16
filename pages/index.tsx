@@ -14,8 +14,10 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <div>
-                Providerlar:
-                {providers.map(provider => <div>{JSON.stringify(provider)}</div>)}
+                Providerlar <br/>
+                <select name="" id="">
+                    {providers.map(provider => <option>{JSON.stringify(provider)}</option>)}
+                </select>
             </div>
         </div>
     );
