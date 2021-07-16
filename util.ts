@@ -40,8 +40,12 @@ export const parseBalance = (
 
 export const providers:StorageProvider[] = [
   {
-    name: "IPFS",
+    name: "IPFS - Infura",
     hashLength: 46,
     baseURI: "https://ipfs.infura.io/ipfs/"
+  }, {
+    name: "IPFS - The Graph",
+    hashLength: 46,
+    baseURI: "https://api.thegraph.com/ipfs/"
   },
 ]
