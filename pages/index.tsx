@@ -22,6 +22,9 @@ export default function Home() {
                 <select name="" id="">
                     {providers.map(provider => <option>{provider["name"]}</option>)}
                 </select>
+
+
+                
             </div>
         </div>
     );
