@@ -27,19 +27,19 @@ export default function Home() {
 
                 <div className="flex justify-around flex-wrap py-12"> 
                     <a className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                        READ V1 LICENCE
+                        READ V1 LICENCE$HIT
                     </a>
                     <div className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                    READ V2 LICENCE
+                    READ V2 LICENCE$HIT
 
                     </div>
                 </div>
                 <div className="flex justify-around flex-wrap py-12"> 
                     <a className="p-8 bg-red-600 hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                        MODIFY V1 LICENCE
+                        MODIFY V1 LICENCE$HIT
                     </a>
                     <div className="p-8 bg-red-600 hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                    MODIFY V2 LICENCE
+                    MODIFY V2 LICENCE$HIT
 
                     </div>
                 </div>

@@ -25,7 +25,7 @@ export default function Home() {
                 , YOU HOLD ALL COPYRIGHT AND IP RIGHTS TO ARTWORK. </p>
              
                
-                <p className="text-2xl charriot  font-bold text-black py-2 px-4">WELL IT'S TIME TO GET MORE BASTARDOUS. RIGHT NOW THERE IS AN OFFICIAL SMART CONTRACT WHERE YOU CAN WRITE YOUR CUSTOM LICENSE FOR THE BASTARDS YOU HOLD. </p>
+                <p className="text-2xl charriot  font-bold text-black py-2 px-4">WELL IT'S TIME TO GET MORE BASTARDOUS. RIGHT NOW THERE IS AN OFFICIAL SMART CONTRACT WHERE YOU CAN WRITE YOUR CUSTOM LICENCE FOR THE BASTARDS YOU HOLD. </p>
                 <p className="text-2xl charriot font-bold text-black py-2 px-4">ON THIS WEBSITE YOU CAN INTERACT WITH THE SMART CONTRACT. YOU CAN VIEW WHAT PEOPLE WROTE IN BASTARD LICENCE, OR YOUR CAN EDIT THE LICENCE OF YOUR BASTARD EITHER FULLY ON CHAIN, OR OFFCHAIN (IPFS). </p>
                 <p className="text-2xl charriot font-bold text-red-700 py-4 px-4">I WILL GIVE YOU EXAMPLES ON HOW YOU CAN USE THIS DATA AREA DESIGNATED FOR YOUR BASTARD: </p>
                 <p className="text-2xl charriot font-bold text-black py-2 px-4"> > YOU CAN WRITE WHICH PERSON/DAO/WHATEVER YOU GIVE PERMISSION TO USE IT FOR SPECIFIC THING </p>
@@ -59,10 +59,12 @@ export default function Home() {
                 <p className="text-2xl charriot  font-bold text-black py-2 px-4">> DO NOT BE A DOUCH PLS. </p>
                 <p className="text-2xl charriot  font-bold text-black py-2 px-4">> EXPLORE YOUR ARTISTRY! </p>
                 <p className="text-2xl charriot  font-bold text-black py-2 px-4">> V I B E </p>
-                <select name="" id="">
-                    {providers.map(provider => <option>{provider["name"]}</option>)}
-                </select>  
-                
+                <p className="text-2xl charriot  font-bold text-black py-2 px-4">> LISTEN TO PLUNDERPHONICS BY JOHN OSWALD </p>
+
+                <p className="text-2xl charriot  font-bold text-black py-2 px-4 text-center"> -------------------------------------- </p>
+
+                <p className="text-2xl charriot  font-bold text-black py-2 px-4 text-center">YEAH, THIS IS SUPPOSED TO BE THE NAVBAR LOL: </p>
+           
 
                 <div className="flex justify-around flex-wrap py-12"> 
                     <a className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
