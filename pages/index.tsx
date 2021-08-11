@@ -67,23 +67,15 @@ export default function Home() {
            
 
                 <div className="flex justify-around flex-wrap py-12"> 
-                    <a className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                        READ V1 LICENCE
+                    <a target="_blank" href="/read" className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
+                        READ LICENSE
                     </a>
-                    <div className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                    READ V2 LICENCE
+                    <a target="_blank" href="/modify"  className="p-8 bg-blau hover:bg-black hover:text-white text-white border-8 text-2xl "> 
+                         MODIFY LICENSE
 
-                    </div>
-                </div>
-                <div className="flex justify-around flex-wrap py-12"> 
-                    <a className="p-8 bg-red-600 hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                        MODIFY V1 LICENCE
                     </a>
-                    <div className="p-8 bg-red-600 hover:bg-black hover:text-white text-white border-8 text-2xl "> 
-                    MODIFY V2 LICENCE
-
-                    </div>
                 </div>
+                
                 <div className="bg-black"> 
                     <p className="text-2xl charriot text-center font-bold text-green-500 py-2 px-4 "> EVERYTHING IS A REMIX </p>
                     <p className="text-2xl charriot text-center font-bold text-pink-800 py-2"> EVERY TECHNOLOGY IS BIASED </p>
